@@ -17,6 +17,10 @@ public class HomePage
 	{
 		return driver.findElement(By.xpath("//span[text()='Projects & Tasks']"));
 	}
+	public WebElement getUsersTab()
+	{
+		return driver.findElement(By.linkText("Users"));
+	}
 	public WebElement getLogoutButton()
 	{
 		return driver.findElement(By.cssSelector(".logoutImg"));
